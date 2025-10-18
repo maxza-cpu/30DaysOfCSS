@@ -1,5 +1,6 @@
 body{
   background: #F7E2DC;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
@@ -12,17 +13,18 @@ body{
 
 .text{
   text-align: center;
-  color: #412050;
+  color: #7387c8;
   font-size: 100px;
   font-weight: bold;
   position: relative;
   animation: text 3s 1;
+  text-shadow: none;
 }
 
 
 @keyframes text{
   0%{
-    color: #89E932;
+    color: #3aaada;
     margin-bottom: -40px;
   }
   30%{
